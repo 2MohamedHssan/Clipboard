@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h3{
+        @apply mb-8 text-4xl font-bold text-darkgrayishblue md:text-5xl
+    }
+}
+
+.pD{
+        @apply max-w-3xl mx-auto text-2xl text-grayishblue
+}
+.section-container{
+    @apply max-w-6xl mx-auto text-center;
+}
+.button-container{
+    @apply flex flex-col md:flex-row justify-center items-center w-full space-y-6 text-xl text-white md:space-y-0 md:space-x-4
+}
+.response{
+    @apply flex flex-col md:flex-row  md:justify-between items-center w-full space-y-6 text-xl md:space-y-0 md:space-x-4
+}
